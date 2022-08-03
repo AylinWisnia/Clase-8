@@ -1,0 +1,27 @@
+@import "./config.scss";
+@import "./header.scss";
+@import "./productos.scss";
+@import "./footer.scss";
+
+main.content {
+    padding: 0 2rem;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+section.main_content {
+    background-color: whitesmoke;
+    padding: 3rem;
+    .titulo {
+        text-align: center;
+    }
+    #mainCarrousel {
+        .carousel-inner {
+            width: 60rem;
+        }
+        img {
+            height: 30rem;
+        }
+    }
+}
