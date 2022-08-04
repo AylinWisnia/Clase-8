@@ -238,6 +238,12 @@ main.content {
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 3rem; }
+  main.content .main_portada {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5ch;
+    margin-bottom: 3rem; }
 
 section.main_content {
   background-color: whitesmoke;

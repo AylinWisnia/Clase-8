@@ -4,6 +4,13 @@
 @import "./footer.scss";
 
 main.content {
+    .main_portada {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 5ch;
+        margin-bottom: 3rem;
+    }
     padding: 0 2rem;
     width: 100%;
     margin-top: 3rem;
