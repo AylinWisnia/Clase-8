@@ -16,6 +16,14 @@ $media_queries: (
     "special-size-none": "only screen and (min-width: 1200px)",
     "desktop": "only screen and (min-width: 1500px)",
 );
+/*
+    Entendiendo al funcion: for_breakpoint
+    param: le entra la o las  media query que se desea evaluar
+    despues se itera sobre el arreglo de media queries 
+    y se va agregadno a la lista condtion a medida que el map-get devuelve
+    el value de la key dada en forma de string por el inspect
+
+*/
 
 @mixin for_breakpoint($breakpoints) {
     $conditions: ();
@@ -47,6 +55,9 @@ footer {
     box-sizing: border-box;
     margin: 0 auto;
 }
+
+
+
 ul,
 li {
     list-style: none;
@@ -60,4 +71,9 @@ body {
     grid-template-areas: $grid-areas;
     grid-template-columns: auto;
     grid-template-rows: 50px auto auto;
+}
+
+
+.w-100 {
+    width: 100%;
 }

@@ -5,10 +5,10 @@
     align-items: center;
     display: flex;
     padding: 0 2rem !important;
-    width: 100%;
+    @extend .w-100;
 
     .menu {
-        width: 100%;
+        @extend .w-100;
     }
     .menu_items {
         display: flex;
@@ -16,13 +16,12 @@
     .menu_item {
         color: #333333;
         padding: 0.5rem 1rem;
-        a{
+        a {
             font-size: 3ch;
         }
         &:hover {
             background: rgba(0, 0, 0, 0.034);
         }
-
     }
     .menu_link {
         text-decoration: none;

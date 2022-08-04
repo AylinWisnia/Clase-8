@@ -7,7 +7,7 @@ section.imagenes_container {
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: 100%;
     min-height: 45rem;
-    width: 100%;
+    @extend .w-100;
     .carta {
         align-items: flex-end;
         display: flex;
@@ -16,14 +16,14 @@ section.imagenes_container {
 
     .producto {
         display: flex;
-        width: 100%;
+         @extend .w-100;
         min-height: 15rem;
         .titulo {
             background: rgba(0, 0, 0, 0.5);
             color: #fdfdfd;
             padding: 0.6rem;
             text-align: center;
-            width: 100%;
+             @extend .w-100;
             align-self: flex-end;
             height: max-content;
         }

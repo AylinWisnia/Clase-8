@@ -3,7 +3,12 @@
 @import "./productos.scss";
 @import "./footer.scss";
 
+
 main.content {
+    padding: 0 2rem;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     .main_portada {
         text-align: center;
         text-transform: uppercase;
@@ -11,10 +16,6 @@ main.content {
         font-size: 5ch;
         margin-bottom: 3rem;
     }
-    padding: 0 2rem;
-    width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
 }
 
 section.main_content {
